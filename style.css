@@ -36,3 +36,40 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.inputs input{
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    background: none;
+    color: #3498db;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #b5b5b5;
+}
+
+.inputs input:first-child{
+    margin-left: 0px;
+}
+
+.content .details{
+    margin: 20px 0 25px;
+}
+
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.content .reset-btn{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 0;
+    background: #3498db;
+    border-radius: 5px;
+}
