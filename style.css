@@ -13,3 +13,26 @@ body{
     min-height: 100vh;
     background:  #3498db;
 }
+
+.wrapper{
+    width: 430px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.wrapper h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wrapper .content{
+    margin: 25px 25px 35px;
+}
+
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
