@@ -1,6 +1,7 @@
 const inputs = document.querySelector(".inputs"),
 resetBtn = document.querySelector(".reset-btn"),
-hint = document.querySelector(".hint span");
+hint = document.querySelector(".hint span"),
+typingInput = document.querySelector(".typing-input");
 
 
 function randomWord() {
@@ -20,3 +21,5 @@ function randomWord() {
 randomWord();
 
 resetBtn.addEventListener("click", randomWord);
+typingInput.addEventListener("input", initGame);
+document.addEventListener("keydown", () => typingInput.focus());
